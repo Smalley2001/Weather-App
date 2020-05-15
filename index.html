@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- title gives the attribute specifies extra information about an element.  -->
+    <title>Weather APP</title>
+
+    <!-- link the html file to the css file-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- The wrap attribute specifies how the text in a text area is to be wrapped when submitted in a form. -->
+    <div class="app-wrap">
+      <header>
+        <!-- Specifies the user's input to be text, the autocomplete is off. The input type text creates the search box and the placeholder specifies what will be displayed in the search box before the user starts typing -->
+        <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city.."/>
+      </header>
+      <main>
+        <section class="location">
+          <div class="city">Northampton,GB</div>
+          <div class="date">Thursday 10 January 2020</div>
+        </section>
+        <div class="current">
+          <!-- The <span> tag is an inline container used to mark up a part of a text, or a part of a document. The <span> tag provides no visual change by itself, but when it is marked, you can style it with CSS, or manipulate it with JavaScript. -->
+          <div class="temp">15<span>°C</span></div>
+          <div class="weather">Sunny</div>
+          <div class="hi-low">13 °C/ 16 °C </div>
+    </div>
+
+
+    <!-- link the html page to the JavaScript page -->
+    <script src="script.js"></script>
+  </body>
+</html>
